@@ -11,7 +11,7 @@ import SwiftUI
 struct LogViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogsView()
         }
     }
 }
