@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "904EEC25292914AA00F03FDF"
-               BuildableName = "LogView.app"
-               BlueprintName = "LogView"
-               ReferencedContainer = "container:LogView.xcodeproj">
+               BuildableName = "LogsView.app"
+               BlueprintName = "LogsView"
+               ReferencedContainer = "container:LogsView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "904EEC25292914AA00F03FDF"
-            BuildableName = "LogView.app"
-            BlueprintName = "LogView"
-            ReferencedContainer = "container:LogView.xcodeproj">
+            BuildableName = "LogsView.app"
+            BlueprintName = "LogsView"
+            ReferencedContainer = "container:LogsView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "904EEC25292914AA00F03FDF"
-            BuildableName = "LogView.app"
-            BlueprintName = "LogView"
-            ReferencedContainer = "container:LogView.xcodeproj">
+            BuildableName = "LogsView.app"
+            BlueprintName = "LogsView"
+            ReferencedContainer = "container:LogsView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

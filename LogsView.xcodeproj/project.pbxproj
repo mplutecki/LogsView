@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		904EEC2A292914AA00F03FDF /* LogViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EEC29292914AA00F03FDF /* LogViewApp.swift */; };
-		904EEC2C292914AA00F03FDF /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EEC2B292914AA00F03FDF /* LogsView.swift */; };
-		904EEC2E292914AB00F03FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904EEC2D292914AB00F03FDF /* Assets.xcassets */; };
-		904EEC31292914AB00F03FDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904EEC30292914AB00F03FDF /* Preview Assets.xcassets */; };
-		904EEC382929878700F03FDF /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904EEC372929878600F03FDF /* FilterView.swift */; };
+		9037E9D2292F6A4500203965 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037E9CC292F6A4500203965 /* LogsView.swift */; };
+		9037E9D3292F6A4500203965 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037E9CD292F6A4500203965 /* FilterView.swift */; };
+		9037E9D4292F6A4500203965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9037E9CE292F6A4500203965 /* Assets.xcassets */; };
+		9037E9D5292F6A4500203965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9037E9D0292F6A4500203965 /* Preview Assets.xcassets */; };
+		9037E9D6292F6A4500203965 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037E9D1292F6A4500203965 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		904EEC26292914AA00F03FDF /* LogView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		904EEC29292914AA00F03FDF /* LogViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewApp.swift; sourceTree = "<group>"; };
-		904EEC2B292914AA00F03FDF /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
-		904EEC2D292914AB00F03FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		904EEC30292914AB00F03FDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		904EEC372929878600F03FDF /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		9037E9CC292F6A4500203965 /* LogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		9037E9CD292F6A4500203965 /* FilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		9037E9CE292F6A4500203965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9037E9D0292F6A4500203965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9037E9D1292F6A4500203965 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		904EEC26292914AA00F03FDF /* LogsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,10 +34,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9037E9CB292F6A4500203965 /* LogsView */ = {
+			isa = PBXGroup;
+			children = (
+				9037E9D1292F6A4500203965 /* App.swift */,
+				9037E9CC292F6A4500203965 /* LogsView.swift */,
+				9037E9CD292F6A4500203965 /* FilterView.swift */,
+				9037E9CE292F6A4500203965 /* Assets.xcassets */,
+				9037E9CF292F6A4500203965 /* Preview Content */,
+			);
+			path = LogsView;
+			sourceTree = "<group>";
+		};
+		9037E9CF292F6A4500203965 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9037E9D0292F6A4500203965 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		904EEC1D292914AA00F03FDF = {
 			isa = PBXGroup;
 			children = (
-				904EEC28292914AA00F03FDF /* LogView */,
+				9037E9CB292F6A4500203965 /* LogsView */,
 				904EEC27292914AA00F03FDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,37 +65,17 @@
 		904EEC27292914AA00F03FDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				904EEC26292914AA00F03FDF /* LogView.app */,
+				904EEC26292914AA00F03FDF /* LogsView.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		904EEC28292914AA00F03FDF /* LogView */ = {
-			isa = PBXGroup;
-			children = (
-				904EEC29292914AA00F03FDF /* LogViewApp.swift */,
-				904EEC2B292914AA00F03FDF /* LogsView.swift */,
-				904EEC372929878600F03FDF /* FilterView.swift */,
-				904EEC2D292914AB00F03FDF /* Assets.xcassets */,
-				904EEC2F292914AB00F03FDF /* Preview Content */,
-			);
-			path = LogView;
-			sourceTree = "<group>";
-		};
-		904EEC2F292914AB00F03FDF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				904EEC30292914AB00F03FDF /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		904EEC25292914AA00F03FDF /* LogView */ = {
+		904EEC25292914AA00F03FDF /* LogsView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 904EEC34292914AB00F03FDF /* Build configuration list for PBXNativeTarget "LogView" */;
+			buildConfigurationList = 904EEC34292914AB00F03FDF /* Build configuration list for PBXNativeTarget "LogsView" */;
 			buildPhases = (
 				904EEC22292914AA00F03FDF /* Sources */,
 				904EEC23292914AA00F03FDF /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = LogView;
+			name = LogsView;
 			productName = LogView;
-			productReference = 904EEC26292914AA00F03FDF /* LogView.app */;
+			productReference = 904EEC26292914AA00F03FDF /* LogsView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 904EEC21292914AA00F03FDF /* Build configuration list for PBXProject "LogView" */;
+			buildConfigurationList = 904EEC21292914AA00F03FDF /* Build configuration list for PBXProject "LogsView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				904EEC25292914AA00F03FDF /* LogView */,
+				904EEC25292914AA00F03FDF /* LogsView */,
 			);
 		};
 /* End PBXProject section */
@@ -128,8 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904EEC31292914AB00F03FDF /* Preview Assets.xcassets in Resources */,
-				904EEC2E292914AB00F03FDF /* Assets.xcassets in Resources */,
+				9037E9D5292F6A4500203965 /* Preview Assets.xcassets in Resources */,
+				9037E9D4292F6A4500203965 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904EEC2C292914AA00F03FDF /* LogsView.swift in Sources */,
-				904EEC382929878700F03FDF /* FilterView.swift in Sources */,
-				904EEC2A292914AA00F03FDF /* LogViewApp.swift in Sources */,
+				9037E9D6292F6A4500203965 /* App.swift in Sources */,
+				9037E9D3292F6A4500203965 /* FilterView.swift in Sources */,
+				9037E9D2292F6A4500203965 /* LogsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LogView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LogsView/Preview Content\"";
 				DEVELOPMENT_TEAM = L6L2K95B4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michalplutecki.LogView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michalplutecki.LogsView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -299,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LogView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LogsView/Preview Content\"";
 				DEVELOPMENT_TEAM = L6L2K95B4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michalplutecki.LogView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michalplutecki.LogsView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		904EEC21292914AA00F03FDF /* Build configuration list for PBXProject "LogView" */ = {
+		904EEC21292914AA00F03FDF /* Build configuration list for PBXProject "LogsView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				904EEC32292914AB00F03FDF /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		904EEC34292914AB00F03FDF /* Build configuration list for PBXNativeTarget "LogView" */ = {
+		904EEC34292914AB00F03FDF /* Build configuration list for PBXNativeTarget "LogsView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				904EEC35292914AB00F03FDF /* Debug */,
